@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Task_3</string>
+
+    <string name="price_details">
+        Rice : 65 Tk. per kg.\n
+        Sugar : 35 TK. per kg.\n
+        Milk : 60 TK. per liter.\n
+        Onion : 80 TK. per kg.\n
+        Potato : 50 TK. per kg.
+    </string>
+
+</resources>

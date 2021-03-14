@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product And Price details"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#D50000"
+        android:padding="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/price_details"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:lineSpacingExtra="15dp"
+                android:textColor="#000000"
+                android:background="#00E5FF"
+                android:layout_margin="10dp"
+                android:textStyle="italic"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:background="#3D5AFE"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Groceries"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:drawablePadding="15dp"
+                    android:textColor="#F6F6F6"
+                    android:drawableLeft="@drawable/grocery"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Amount"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#F6F6F6"
+                    android:drawableLeft="@drawable/amount"
+                    android:drawablePadding="15dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:id="@+id/riceCheckBoxId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.7"
+                    android:padding="5dp"
+                    android:text="Rice"
+                    android:textAlignment="center"
+                    android:textColor="#F50057"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1.3"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+
+                    <SeekBar
+                        android:id="@+id/riceSeekBarId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:max="10"
+                        android:padding="5dp"
+                        android:thumbTint="#6200EA"/>
+
+                    <TextView
+                        android:id="@+id/riceAmountId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Value: 0/10 (kg)"
+                        android:textAlignment="center"
+                        android:textColor="#AA00FF"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:id="@+id/sugarCheckBoxId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.7"
+                    android:padding="5dp"
+                    android:text="Sugar"
+                    android:textAlignment="center"
+                    android:textColor="#F50057"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1.3"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <SeekBar
+                        android:id="@+id/sugarSeekBarId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:max="10"
+                        android:thumbTint="#6200EA" />
+
+
+                    <TextView
+                        android:id="@+id/sugarAmountId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textColor="#AA00FF"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:text="Value: 0/10 (kg)"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:id="@+id/milkCheckBoxId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.7"
+                    android:padding="5dp"
+                    android:text="Milk"
+                    android:textAlignment="center"
+                    android:textColor="#F50057"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1.3"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <SeekBar
+                        android:id="@+id/milkSeekBarId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:max="10"
+                        android:thumbTint="#6200EA" />
+
+
+                    <TextView
+                        android:id="@+id/milkAmountId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textColor="#AA00FF"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:text="Value: 0/10 (liter)"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:id="@+id/onionCheckBoxId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.7"
+                    android:padding="5dp"
+                    android:text="Onion"
+                    android:textAlignment="center"
+                    android:textColor="#F50057"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1.3"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <SeekBar
+                        android:id="@+id/onionSeekBarId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:max="10"
+                        android:thumbTint="#6200EA" />
+
+
+                    <TextView
+                        android:id="@+id/onionAmountId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textColor="#AA00FF"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:text="Value: 0/10 (kg)"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:id="@+id/potatoCheckBoxId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.7"
+                    android:padding="5dp"
+                    android:text="Potato"
+                    android:textAlignment="center"
+                    android:textColor="#F50057"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1.3"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <SeekBar
+                        android:id="@+id/potatoSeekBarId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:max="10"
+                        android:thumbTint="#6200EA" />
+
+
+                    <TextView
+                        android:id="@+id/potatoAmountId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textColor="#AA00FF"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:text="Value: 0/10 (kg)"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/delivarySwitchId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home Delivary: "
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#651FFF"
+                android:layout_margin="20dp"
+                android:switchPadding="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Method:"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="20dp"/>
+            
+            <RadioGroup
+                android:id="@+id/paymentRadioId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                
+                <RadioButton
+                    android:id="@+id/bkashRadioId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="bKash"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textColor="#D50000"/>
+
+                <RadioButton
+                    android:id="@+id/cashRadioId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cash"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textColor="#00C853"/>
+
+                <RadioButton
+                    android:id="@+id/nogodhRadioId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nogod"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textColor="#FF6D00"/>
+
+                <RadioButton
+                    android:id="@+id/cardRadioId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Credit Card"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textColor="#304FFE"/>
+                
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/orderButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Place My Order"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:textColor="#00E5FF"
+                android:background="#F50057"/>
+
+            <TextView
+                android:id="@+id/orderDetailsTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/delivaryDetailsTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/priceDetailsTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/paymentDetailsTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
