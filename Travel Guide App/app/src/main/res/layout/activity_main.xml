@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Travel Guide App"
+        android:textColor="#FFD600"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:background="@drawable/buttonshape3" />
+
+    <TextView
+        android:id="@+id/marqueeTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Welcome to Bangladesh Divisions.Dhaka is the capital and Chittagong is the main port town of Bangladesh.Other 6 divisions are below"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/background_gradient" />
+
+    <GridView
+        android:id="@+id/divisionGridViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient2"
+        android:numColumns="2"
+        android:listSelector="#651FFF"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp">
+
+    </GridView>
+
+</LinearLayout>

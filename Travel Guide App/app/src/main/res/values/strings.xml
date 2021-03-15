@@ -1,0 +1,432 @@
+<resources>
+    <string name="app_name">Travel App</string>
+
+    Divisions Names
+
+    <string-array name="divisions">
+
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Rajshahi</item>
+        <item>Khulna</item>
+        <item>Barishal</item>
+        <item>Rangpur</item>
+        <item>Mymensingh</item>
+        <item>Sylhet</item>
+
+    </string-array>
+
+    District Names
+
+    <string-array name="sylhet_division">
+
+        <item>Sylhet</item>
+        <item>Moulvibazar</item>
+        <item>Sunamganj</item>
+        <item>Habiganj</item>
+
+    </string-array>
+
+    <string-array name="mymensingh_division">
+
+        <item>Jamalpur</item>
+        <item>Mymensingh</item>
+        <item>Netrokona</item>
+        <item>Sherpur</item>
+
+    </string-array>
+
+    <string-array name="dhaka_division">
+
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Tangail</item>
+
+    </string-array>
+
+    <string-array name="barishal_division">
+
+        <item>Barguna</item>
+        <item>Barishal</item>
+        <item>Bhola</item>
+        <item>Jhalakati</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+
+    </string-array>
+
+    <string-array name="rangpur_division">
+
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Thakurgaon</item>
+
+    </string-array>
+
+    <string-array name="rajshahi_division">
+
+        <item>Bogura</item>
+        <item>Chapainawabganj</item>
+        <item>Joypurhat</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Sirajganj</item>
+
+    </string-array>
+
+    <string-array name="khulna_division">
+
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+
+    </string-array>
+
+    <string-array name="chittagong_division">
+
+        <item>Bandarban</item>
+        <item>Bhahmanbaria</item>
+        <item>Chadpur</item>
+        <item>Chittagong</item>
+        <item>Comilla</item>
+        <item>Coxs Bazar</item>
+        <item>Feni</item>
+        <item>Khagrachhari</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+
+    </string-array>
+
+    Tour Spot details
+
+    <string-array name="dhakaTourSpot_name">
+
+        <item>National Martyrs Memorial</item>
+        <item>Lalbagh Fort</item>
+
+    </string-array>
+
+    <string-array name="dhakaTourSpot_description">
+
+        <item>This is one of the major tourist attractions at the outskirts of Dhaka city. This wonderful architectural monument
+            represents the great sacrificing heroes, who sacrificed their lives for the independence of Bangladesh in 1971.</item>
+
+        <item>Lalbagh Fort is a historic Mughal esatablishment situated at the old part of Dhaka. This Fort is built with red
+            colored bricks. It is one of the most popular historic places and a great example of art by Mughal Emperor in Bangladesh.</item>
+
+    </string-array>
+
+    <string-array name="gazipurTourSpot_name">
+
+        <item>Bangabandhu Sheikh Mujib Safari Park</item>
+
+    </string-array>
+
+    <string-array name="gazipurTourSpot_description">
+
+        <item>Bangabandhu Sheikh Mujib Safari Park is a safari park in Gazipur, Bangladesh. This safari park is spread over 3810 acres
+            of Sal Forest which makes it one of the largest safari parks in the world and the largest in Asia. It was inaugurated on
+            October 31, 2013. It is located about 40 km north of Bangladesh capital city Dhaka near the Dhaka to Mymensingh Highway.
+            \n\nThe park is divided into 5 major sections. They are the Core Safari, Safari Kingdom, Biodiversity Park,
+            Extensive Asian Safari Park and Bangabandhu Square.</item>
+
+    </string-array>
+
+    <string-array name="manikganjTourSpot_name">
+
+        <item>Aricha Ghat</item>
+
+    </string-array>
+
+    <string-array name="manikganjTourSpot_description">
+
+        <item>Aricha Ghat is an important river port in Bangladesh. It is situated in Manikganj District.The port is managed by
+            Bangladesh Inland Water Transport Authority. Daulatdia-Paturia route ferries ply from this port.</item>
+
+    </string-array>
+
+    <string-array name="munshiganjTourSpot_name">
+
+        <item>Arial Beel</item>
+        <item>Mawa Ghat</item>
+
+    </string-array>
+
+    <string-array name="munshiganjTourSpot_description">
+
+        <item>Arial Beel is the third largest wetland in Bangladesh covering an area of 136 sq. km. It Is situated in Srinagar Upazila of
+            Munshiganj District. The beel consists of many small ponds and canals. During the rainy season the plants become livelier and
+            the vast expanse of water with land borders look exotic Though the beel reduces in winter, still remains navigable.The beel
+            abounds in fish and during the dry season the farmers produce corns and vegetables in the dry area. The pumpkin of this beel
+            is famous. You can have a tour of the beel by boats. The beel is just 35 km from Dhaka and can be reached in an hour and a
+            half.</item>
+
+        <item>Mawa Ferry Ghat remains the connector of South Bengal to the other part of country via Padma river. Furthermore, the place
+            is famous for traditional Hilsa fish. As a result, this place has become one of the busiest places in the country. People
+            from different places in the country come to Mawa Ghat to roam on the river, taste fresh Hilsa fish and watch the natural
+            beauty of the place. For the people of Dhaka, this place is a very good tourist spot for a day trip.</item>
+
+    </string-array>
+
+    <string-array name="narayanganjTourSpot_name">
+
+        <item>Panam City</item>
+        <item>Sonargaon,Lok Shilpa Jadughar</item>
+
+    </string-array>
+
+    <string-array name="narayanganjTourSpot_description">
+
+        <item>Panam City, also called as the lost city, an archaeological site situated at Sonargaon Upazıla of Narayanganj District.
+            This is the oldest capital of Bengal and the ancient silk road from the Bengal delta to China and Central Asia.</item>
+
+        <item>Lok Shilpa Jadughar (Folk Art and Craft Museum) of Sonargaon was established by Bangladeshi painter Joynul Abedin on
+            March 12, 1975. This is prosperous with several unique collections those someone will never find at any other places.
+            There are two Exhibition Galleries inside the museum. Both of them consist of some status showing the local life of
+            Bangladeshi people, for example farming, woman working etc. These are miniature version of old age boats of the country.
+            The baroque decoration and the elaborated painting on the plaster of the building are really eye catching.</item>
+
+    </string-array>
+
+    <string-array name="narsingdiTourSpot_name">
+
+        <item>Wari Bateshwar</item>
+
+    </string-array>
+
+    <string-array name="narsingdiTourSpot_description">
+
+        <item>The Wari-Bateshwar in Narsingdi, Bangladesh is the site of an ancient fort city. Based on the artifacts found here the
+            city was active between about 2000 BC (or earlier) to 450 BC. The ruins being unearthed near the old course of the
+            Brahmaputra River are a major archaeological discovery in South Asia, which challenges the earlier notions of early urban
+            civilization in Bengal.
+            \n\nThe discovery of a pit-dwelling is the first of its kind in Bangladesh. The pit-dwelling is a Copper Age or Chalcolithic
+            artefact. Similar pit-dwellings have been found in India and Pakistan which are believed to be 4000 years old.
+            \n\nLater the area was part of the ancient region of Samatata.</item>
+
+    </string-array>
+
+    <string-array name="rajbariTourSpot_name">
+
+        <item>Daulatdia Ghat</item>
+
+    </string-array>
+
+    <string-array name="rajbariTourSpot_description">
+
+        <item>Paturia and Daulatdia Ferry Ghat, is the main artery of communication between the southern portion of Bangladesh and the
+            Capital city of Dhaka. Here we can watch unloading of vehicles from. The Padma is a major river in Bangladesh.
+            It is the main distributary of the Ganges, flowing generally southeast for 120 kilometres to its confluence with
+            the Meghna River near the Bay of Bengal.</item>
+
+    </string-array>
+
+    <string-array name="tangailTourSpot_name">
+
+        <item>Jamuna Bridge</item>
+        <item>Madhupur Garh</item>
+
+    </string-array>
+
+    <string-array name="tangailTourSpot_description">
+
+        <item>Bangabandhu Bridge, commonly called the Jamuna Multi-purpose Bridge (Bengali:Jomuna Bohumukhi Setu) and also called the
+            Poongi bridge, is a bridge opened in Bangladesh in June 1998. It connects Bhuapur on the Jamuna Rivers east bank to
+            Sirajganj on its west bank. It was the 11th longest bridge in the world when constructed in 1998 and at present is
+            the 6th longest bridge in South Asia. The Jamuna River, which it spans, is one of the three major rivers of Bangladesh,
+            and is fifth largest in the world in discharge volume.</item>
+
+        <item>Madhupur Garh or Madhupur Shalban or Madhupur Jungle is a large forest or raised area located in the center of Bangladesh.
+            Madhupur Garh area extends from the southern part of Jamalpur district in the north to Fatulla thana of Narayanganj Sadar
+            upazila in the south . Tangail and Gazipur districts and most of Dhaka city are included in this average region.The northern
+            part of the average is known as Madhupur average and the southern part as Bhawal average. Madhupur National Park is made up
+            of the average part of Madhupur Upazila in Tangail and Bhawal National Park is made up of some parts of Gazipur.
+            \n\nAfter the Madhupur forest came under the Forest Department in 1972, initiatives were taken to conserve the biodiversity of
+            the forest. According to the Bangladesh Wildlife Conservation Act of 1974, the purpose of conserving biodiversity was
+            declared in 1972. 6438 hectares of this forest was declared as two national parks named Madhupur and Bhawal.</item>
+
+    </string-array>
+
+    <string-array name="gopalganjTourSpot_name">
+
+        <item>Bangabandhu Mausoleum</item>
+
+    </string-array>
+
+    <string-array name="gopalganjTourSpot_description">
+
+        <item>The complex is known as the Mausoleum of Father of the Nation Bangabandhu Sheikh Mujibur Rahman or colloquially as
+            Tomb of Bangabandhu. It was established on 15 June 2001 by the then Prime Minister Sheikh Hasina.
+            \n\nBangabondhu Sheikh Mujibur Rahman, father of the Nation of Bangladesh, lies in eternal peace at this place with his parents.
+            \n\nEntering from the Patgati-Tungipara Road, the complex opens up to a large, open well-organised space containing, amongst
+            other things, a museum which showcases both popular and rare photographs from Sheikh Mujib\'s life. There\'s also a small
+            library in the museum. The complex also contains a small shop and a large cafeteria for hungry visitors. In a far corner,
+            there\'s a small open stage which signifies the countless number of times Sheikh Mujib stood up and gave powerful,
+            resonating speeches to his fellow Bengalis.</item>
+
+    </string-array>
+
+    <string-array name="dinajpurTourSpot_name">
+
+        <item>Kantaji Temple</item>
+        <item>Sitakot Vihara</item>
+        <item>Shopnopuri Artificial Amusement Park</item>
+
+    </string-array>
+
+    <string-array name="dinajpurTourSpot_description">
+
+        <item>Kantaji or Kantanagar Temple is an eighteenth century brick built temple, situated at Kantanagar, Dinajpur. About 20 km
+            north of Dinajpur town and about 1.5 km west of Dinajpur-Tetulia highway. This nava-ratna or \'nine spires\' Hindu Temple
+            is the most sought after because of its wonderful terracotta embellishment. The visitors are just spell-bound to see the
+            wall of the temple, every inch of which are plagued with wonderful terracotta.</item>
+
+        <item>Sitakot Vihara is an archaeological site located in Nawabganj upazila in Dinajpur district of Bangladesh. The site is
+            locally known as the residence of Sita. Through regular excavations in the years 1968 and 1972-1973, an ancient Buddhist
+            monastery was discovered in the site. The monastery dates from a similar time period to the nearby Somapura Mahavihara
+            and Halud Vihara.</item>
+
+        <item>Shopnopuri Artificial Amusement Park is an artificial spot for tourists situated in Dinajpur district of Rangpur division
+            in Bangladesh. There are rides, a zoo, a resthouse, a garden, lakes, central picnic center and countless shopping areas.
+            Other tourist locations include Fish World, \‘Rongdhonu\’ Art Gallery, and \‘Moha Maya Indrojal\’. Fish World offers artificial
+            fishes and various wet animals. The Animal Kingdom is filled with artificial statues of some animals like flamingos,
+            dinosaurs, Pegasus and many more. \‘Rongdhonu\’ Art Gallery has a variety of sculptures and paintings. At
+            \‘Moha Maya Indrojal\’, there is magic. And there are a variety of animals. It is a popular site for picnics.</item>
+
+    </string-array>
+
+    <string-array name="nilphamariTourSpot_name">
+
+        <item>Tista Barrage</item>
+
+    </string-array>
+
+    <string-array name="nilphamariTourSpot_description">
+
+        <item>One of the largest barrages in Indian subcontinent. It got 51 switch gates. It controls the water supply of the whole
+            Bangladesh rivers. Besides it\'s a tourist spot, there is a park beside it. Area of beside the bridge is wonderful, blessed
+            with nature.</item>
+
+    </string-array>
+
+    <string-array name="rangpurTourSpot_name">
+
+        <item>Tajhat Palace</item>
+
+    </string-array>
+
+    <string-array name="rangpurTourSpot_description">
+
+        <item>Tajhat Palace, is a historic palace of Bangladesh, located at Tajhat, Rangpur. The palace was built by Maharaja Kumar Gopal
+            Lal Roy at the beginning of the 20th century. It is believed that from the conspicuous appearance of his Taj or jeweled crown,
+            his estate derived the name of Tajhat. The Palace is situated three km. south-east of the city of Rangpur, on the outskirts of
+            the town.</item>
+
+    </string-array>
+
+    <string-array name="moulvibazarTourSpot_name">
+
+        <item>Srimangal, Tea garden</item>
+        <item>Madhabkunda Waterfall</item>
+        <item>Lawachara Rain Forest</item>
+        <item>Baikka Beel</item>
+
+    </string-array>
+
+    <string-array name="moulvibazarTourSpot_description">
+
+        <item>Srimangal, the tea-capital of Bangladesh is famous for tea garden covered by the green carpet and also called the land of
+            two leaves and a bud. It\'s a soothing landscape of terraced tea gardens, pineapple, rubber and lemon plantations. A good
+            number of luxury resorts and villas have made Srimangal as the best holiday-making destination. Staying few days around tea
+            estates or any resort and exploring nearby villages and forests certainly be enounced complete rejoice of travelling in
+            Srimangal, beauty of the place of leaves and bud.</item>
+
+        <item>Madhabkunda waterfall is one of the most beautiful and attractive waterfalls in Bangladesh. The green leafy trees,
+            big bolder of black stones make this waterfall so charming and eyes catching.</item>
+
+        <item>To get the taste of a mysterious rain forest, Lawachara is perfect place to visit. The well- conserved forest offers
+            ample opportunities for trekking and jungle walking. There have over 460 different species of birds, mammals and reptiles
+            that live in this forest, such as deer, wild chickens, wild chicken,   squirrels, pythons, endangered hoolock gibbons,
+            capped langurs, slow loris, birds, snakes, banana spiders etc.</item>
+
+        <item>Baikka Beel, a sanctuary for birds and fish, is located in Srimangal and Moulovibazar. It is a part of Hail Haor.
+            The beel has an area of 1000 hectares and comprises of open water with emergent vegetation and a fringe of native swamp
+            forest. Thousands of birds live here and thousands more migrate. You can watch birds throughout the year. When you enter
+            the wetland area you will be engrossed by the chirping of birds. There is a watch tower at the centre of the beel.
+            The beel has a beautiful view with birds as well as lilies, lotuses and other aquatic plants and flowers. There are
+            98 species of fish mostly local and 160 species of birds including migratory ones. Experienced people say Baikka Beel is
+            the best place in the country for bird watching. Best place for night stay is Srimangal where there are plenty of hotels
+            and guest houses.</item>
+
+    </string-array>
+
+    <string-array name="sunamganjTourSpot_name">
+
+        <item>Tanguar Haor</item>
+        <item>Chhatak</item>
+
+    </string-array>
+
+    <string-array name="sunamganjTourSpot_description">
+
+        <item>Tanguar Haor is one of the largest natural water reservoirs in the South Asia. Because of its diverse natural and aquatic
+            features, it has been declared as a Ramsar site by IUCN. The site wears different looks at different seasons to attract
+            the tourists. During rainy season, the Haor becomes a sea with strong waves. In winter green fields of miles after miles,
+            hundreds of canals, thousands of migratory birds, fishermen in the ditches are just fabulous for the tourists.</item>
+
+        <item>Chhatak is a town in northeastern Bangladesh, on the Surma River in Chhatak Upazila of Sunamganj District in the division
+            of Sylhet. This town is ever green. Here, people of all religions live in peace.</item>
+
+    </string-array>
+
+    <string-array name="sylhetTourSpot_name">
+
+        <item>Jaflong</item>
+        <item>Ratargul Swamp Forest</item>
+        <item>Haripur Gas Field</item>
+
+    </string-array>
+
+    <string-array name="sylhetTourSpot_description">
+
+        <item>Jaflong is a wonderful tourist spot, 56 kilometers away from the Sylhet city. The spot filled with mountains and streams,
+            offers wide varieties of experiences for the visitors. Rollıng rocks, crystal clear water of the Gowain river abound with
+            fish and other aquatic species create a fantastic scenic beauty for nature lovers. The indigenous people khasi live in this
+            region for thousands of years whose colorful lifestyle is enjoyable to anyone.</item>
+
+        <item>Ratargul is a freshwater swamp forest located beside Gowain river, Fatehpur union, Gowainghat, Sylhet. This is an
+            evergreen and one of the best freshwater swamp forests in the world. The beauty of this forest is bloomed mainly in
+            the rainy season.</item>
+
+        <item>Haripur Gas Field is a natural gas field located in Sylhet area of ​​Bangladesh. Gas was first discovered here in 1955
+            and the first gas extraction started in 1956. So far a total of 6 gas wells have been drilled here. Oil has also been
+            found in one of them.</item>
+
+    </string-array>
+
+</resources>
